@@ -23,5 +23,5 @@ jobs:
 
     - name: Build and push Docker image
       run: |
-        docker build . -t ghcr.io/Bastien-mva/docker_image
+        docker build . -t ghcr.io/bastien-mva/docker_image
         # docker push ${{ secrets.CI_REGISTRY_IMAGE }}
